@@ -1,0 +1,9 @@
+import math
+def piASTERISCO():
+    pi= math.pi
+    asterisco="******"
+    print("%.1s"%asterisco,"%.7f"%pi,"%.2s"%asterisco,"%.6f"%pi,"%.3s"%asterisco,"%.5f"%pi,"%.4s"%asterisco,"%.4f"%pi,"%.5s"%asterisco,"%.3f"%pi,"%.6s"%asterisco,"%.2f"%pi)
+    
+piASTERISCO()    
+  
+* 3.1415927 ** 3.141593 *** 3.14159 **** 3.1416 ***** 3.142 ****** 3.14  
